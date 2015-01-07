@@ -6,3 +6,7 @@ When you have an HTML string you want to place inside of a DOM element, you usua
 
 This plugin allows you to write ```$('#my-id').amend(string)``` which tries to be intelligent about updating the DOM inside of the element.
 
+### Dependencies
+
+Just jQuery. nodejs is required if you want to check any changes or build
+a minified version, but it's not a runtime dependency.
