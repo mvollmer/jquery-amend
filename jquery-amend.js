@@ -1,4 +1,6 @@
-(function ($) {
+require([
+    "jquery",
+], function($) {
     "use strict";
 
     function sync(output, input, depth) {
@@ -73,4 +75,4 @@
         return this;
     };
 
-}(jQuery));
+});
